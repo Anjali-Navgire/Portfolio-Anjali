@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjali Navgire | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="close-menu" id="closeMenu">✕</div>
+
+    <ul class="mobile-menu-links">
+      <li><a href="#home">1. Home</a></li>
+      <li><a href="#about">2. About</a></li>
+      <li><a href="#services">3. Services</a></li>
+      <li><a href="#projects">4. Projects</a></li>
+      <li><a href="#contact">5. Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Portfolio</h2>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menuIcon">☰</div>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="section section-home home">
+    <div class="home-container">
+
+      <!-- Left Content -->
+      <div class="home-left">
+        <h1 class="hero-name">
+          Anjali Navgire
+          <span class="name-lines"></span>
+        </h1>
+
+        <h2 class="hero-roles">
+          I'm <span id="role-text"></span>
+        </h2>
+
+        <p class="hero-intro">
+          Computer Science Engineer turned <span class="highlight">&lt;Full-Stack /&gt;</span> Developer.
+          A calm thinker who enjoys solitude, nature, and building meaningful digital experiences through clean,
+          purposeful code.
+        </p>
+
+        <div class="hero-explore">
+          Explore my <span>Code, Creativity, and Growth</span>
+        </div>
+
+      </div>
+
+      <!-- Right Image -->
+      <div class="home-right">
+        <div class="photo-circle" onclick="nextPhoto()">
+          <img src="my-Photo.jpg" class="active" />
+          <img src="Photo3.jpg" />
+          <img src="Photo1.jpg" /> 
+        </div>
+      </div>
+
+  </section>
+
+  <!-- About -->
+  <section class="section section-about" id="about">
+    <div class="about-wrapper">
+      <h2 class="about-title">About</h2>
+      <div class="about-layout">
+
+        <!-- LEFT SIDE -->
+        <div class="about-left">
+          <p class="tab-desc">
+            Here’s a closer look at my journey as a developer—Welcome!
+            Dive in to explore my academic achievements, the technologies I
+            excel at, and a bit about who I am. Each section highlights my growth,
+            skills, and what drives me as a developer.
+          </p>
+          <div class="tab-btn active" data-tab="education">Education</div>
+          <div class="tab-btn" data-tab="skills">Skills</div>
+          <div class="tab-btn" data-tab="aboutme">About Me</div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="about-right">
+
+          <div class="tab-content active" id="education">
+            <h2>
+              ** Education **
+            </h2>
+
+            <div class="edu-card">
+              <h4><strong>B.E. – Computer Science Engineering</strong> </h4>
+              <span>2023 – 2027</span>
+              <p>Focused on advanced concepts of computer science including Data Structures, Algorithms,
+                Web Development. Gained hands-on experience in MERN
+                stack and building modern and efficient web solutions.</p>
+            </div>
+
+            <div class="edu-card">
+              <h4><strong>HSC – Higher Secondary Certificate</strong> </h4>
+              <span>2021 – 2023</span>
+              <p>Focused on Physics, Chemistry, and Mathematics. Developed strong logical reasoning,
+                analytical thinking, and problem-solving skills, preparing for higher studies in engineering and
+                technology.</p>
+            </div>
+
+            <div class="edu-card">
+              <h4><strong>SSC – Secondary School Certificate</strong> </h4>
+              <span>2020 – 2021</span>
+              <p>Completed basic schooling with distinction. Actively participated in computer
+                and tech-related events, building curiosity, discipline, and a strong foundation for learning.</p>
+            </div>
+
+          </div>
+
+          <!-- SKILLS -->
+          <div class="tab-content" id="skills">
+            <h2>** Skills **</h2>
+            <div class="skills-grid">
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <p>HTML</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <p>CSS</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript">
+                <p>JavaScript</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                <p>React</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                <p>Node.js</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB">
+                <p>MongoDB</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                  alt="Express.js">
+                <p>Express.js</p>
+              </div>
+
+              <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="C++">
+                <p>C++</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ABOUT ME -->
+          <div class="tab-content" id="aboutme">
+            <h2>** About me **</h2>
+            <p class="tab-desc">
+              I’m Anjali Navgire, a passionate Full-Stack Developer skilled in MERN stack. I love creating modern,
+              efficient, and user-friendly web applications.
+
+              Curious and focused by nature, I enjoy learning new technologies, experimenting with innovative solutions,
+              and delivering projects with dedication and care.
+
+              Outside of coding, I find inspiration in trekking, nature, and quiet reflection, which fuels my creativity
+              and problem-solving skills.
+
+              I aim to build meaningful, elegant, and efficient digital experiences while continuously growing as a
+              developer.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section-services">
+    <div class="services-wrapper">
+      <h2 class="services-title">Services</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+
+          <div class="service-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>
+            Building responsive, scalable, and modern websites using clean code,
+            strong fundamentals, and real-world project experience.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>UI / UX Design</h3>
+          <p>
+            Designing intuitive interfaces with a strong focus on usability,
+            accessibility, and visually pleasing layouts.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Git & GitHub</h3>
+          <p>
+            Version control, clean commit history, branching strategies,
+            and collaborative workflows using Git and GitHub.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🖌️</div>
+          <h3>Art & Creativity</h3>
+          <p>
+            Expressing creativity through painting and visual art,
+            blending imagination with technical thinking.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🧠</div>
+          <h3>Problem Solving</h3>
+          <p>
+            Turning complex problems into structured, efficient solutions
+            through logical thinking and hands-on project building.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🌿</div>
+          <h3>Exploring Nature</h3>
+          <p>
+            Immersing myself in nature through trekking and outdoor adventures,
+            which sparks creativity, patience, and fresh ideas I bring to my projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-projects" id="projects">
+    <h2 class="project-section">Projects</h2>
+    <div class="title-underline"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-inner">
+
+          <!-- Front -->
+          <div class="project-front">
+            <h3 class="project-title">Health Checkup</h3>
+
+            <p class="project-desc">
+              A frontend-based health checkup web app that allows users to calculate BMI
+              and analyze basic health parameters with a clean and user-friendly UI.
+            </p>
+          </div>
+
+          <div class="project-separator"></div>
+
+          <!-- Back -->
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="https://health-checkup-webapp.vercel.app/" target="_blank" class="project-link">
+              Explore Live
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Tic Tac Toe</h3>
+            <p class="project-desc">
+              A classic Tic Tac Toe game built using pure HTML, CSS, and JavaScript
+              with interactive gameplay and clean animations.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <span class="project-link disabled">Try Now</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Mood Journal</h3>
+            <p class="project-desc">
+              A MERN stack mood journaling application where users can track emotions,
+              write daily reflections, and visualize mood trends.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>MongoDB</li>
+              <li>React</li>
+              <li>Node.js</li>
+            </ul>
+            <a href="https://mood-journal-frontend-ytmo.onrender.com" target="_blank" class="project-link">
+              Enter App
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Weather Dashboard</h3>
+            <p class="project-desc">
+              A weather dashboard that fetches real-time weather data using APIs
+              and displays forecasts with a responsive UI.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>HTML</li>
+              <li>Express</li>
+              <li>Weather API</li>
+            </ul>
+            <a href="https://weather-app-0j8l.onrender.com" target="_blank" class="project-link">
+              Go Live
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Team Dashboard</h3>
+            <p class="project-desc">
+              A real-time team dashboard for project management used in companies,
+              featuring live updates and task collaboration.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Socket.IO</li>
+            </ul>
+            <a href="https://team-dashboard-fduy.onrender.com" target="_blank" class="project-link">
+              Open App
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Chat App</h3>
+            <p class="project-desc">
+              A real-time group chat application with user login using name
+              and instant messaging powered by WebSockets.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>React</li>
+              <li>WebSocket</li>
+              <li>Node.js</li>
+            </ul>
+            <a href="https://chat-app-6kwf.onrender.com" target="_blank" class="project-link">
+              Explore Live
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-inner">
+          <div class="project-front">
+            <h3 class="project-title">Meal Planner</h3>
+            <p class="project-desc">
+              A MERN-based meal planner that generates weekly meal plans
+              and fetches recipes using third-party APIs.
+            </p>
+          </div>
+          <div class="project-separator"></div>
+          <div class="project-back">
+            <h4>Tech Stack</h4>
+            <div class="stack-underline"></div>
+            <ul>
+              <li>React</li>
+              <li>MongoDB</li>
+              <li>API Integration</li>
+            </ul>
+            <a href="https://meal-planner-1-b0jf.onrender.com" target="_blank" class="project-link">
+              See It Live
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="section section-contact" id="contact">
+    <div class="contact-wrapper">
+
+      <!-- LEFT SIDE -->
+      <div class="contact-left">
+        <h2 class="contact-title">Say Hello</h2>
+
+        <p class="contact-text">
+          Thanks for visiting my site, if you have any questions or just want to say hello,
+          feel free to reach out to me. You can also mail me directly at <span
+            class="contact-email">anjalinavgire3109@gmail.com</span>
+        </p>
+
+        <p class="contact-sub">Connect with me on:</p>
+        <div class="contact-socials">
+          <a href="https://instagram.com/anjali_navgire3109" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="https://x.com" target="_blank">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+
+          <a href="https://linkedin.com/in/anjali-navgire" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://github.com/Anjali-Navgire" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="contact-right">
+        <form class="contact-form" action="mailto:anjalinavgire3109@gmail.com" method="POST" enctype="text/plain">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="section-footer">
+    <p>Copyright © 2026 | All Rights Reserved </p>
+    <p>Crafted with 💖 by Anjali </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
