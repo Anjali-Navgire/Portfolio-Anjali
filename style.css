@@ -19,16 +19,25 @@
 
 /*===  Navbar === */
 header {
-  background: #111;
-  padding: 15px 50px;
-  position: sticky;
+  background: #111;              
+  padding: 15px 50px;            
+  position: fixed;               
   top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.35s ease-in-out;
 }
+header.hide {
+  transform: translateY(-100%);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   color: #00f2ff;
 }
@@ -510,7 +519,12 @@ footer {
     0 0 25px rgba(230, 225, 220, 0.25);
 }
 
-
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.4rem;
+    margin-bottom: 70px;
+  }
+}
 
 /* === LAYOUT === */
 .about-layout {

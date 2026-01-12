@@ -27,6 +27,23 @@ mobileLinks.forEach(link => {
     });
 });
 
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY && currentScrollY > 80) {
+    // scrolling down → hide navbar
+    navbar.classList.add("hide");
+  } else {
+    // scrolling up → show navbar
+    navbar.classList.remove("hide");
+  }
+
+  lastScrollY = currentScrollY;
+});
+
 // Rotating words effect
 const roles = [
     "Developer ",
