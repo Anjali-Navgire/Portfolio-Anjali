@@ -34,10 +34,10 @@ window.addEventListener("scroll", () => {
   const currentScrollY = window.scrollY;
 
   if (currentScrollY > lastScrollY && currentScrollY > 80) {
-    // scrolling down → hide navbar
+
     navbar.classList.add("hide");
-  } else {
-    // scrolling up → show navbar
+  }
+   else {
     navbar.classList.remove("hide");
   }
 
