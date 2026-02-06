@@ -94,6 +94,45 @@ function nextPhoto() {
 }
 setInterval(nextPhoto, 3000);
 
+//Mobile Navbar
+document.addEventListener("DOMContentLoaded", () => {
+  const menuIcon = document.getElementById("menuIcon");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const closeMenu = document.getElementById("closeMenu");
+  const header = document.getElementById("header");
+
+  let lastScroll = 0;
+
+  // Navbar hide/show on scroll
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll) {
+      header.classList.add("hide"); 
+    } else {
+      header.classList.remove("hide"); 
+    }
+
+    lastScroll = currentScroll;
+  });
+
+  // Mobile menu open
+  menuIcon.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+  });
+
+  // Mobile menu close
+  closeMenu.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+  });
+
+  document.querySelectorAll(".mobile-menu-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.remove("active");
+    });
+  });
+});
+
 //About page 
 const tabs = document.querySelectorAll(".tab-btn");
 const contents = document.querySelectorAll(".tab-content");
