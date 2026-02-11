@@ -87,175 +87,92 @@
   <section class="section section-about" id="about">
     <div class="about-wrapper">
       <h2 class="about-title">About</h2>
-      <div class="about-layout">
+      <div class="about-container">
 
-        <!-- LEFT SIDE -->
-        <div class="about-left">
-          <p class="tab-desc">
-            Here’s a closer look at my journey as a developer—Welcome!
-            Dive in to explore my academic achievements, the technologies I
-            excel at, and a bit about who I am. Each section highlights my growth,
-            skills, and what drives me as a developer.
-          </p>
-          <div class="tab-btn active" data-tab="education">Education</div>
-          <div class="tab-btn" data-tab="skills">Skills</div>
-          <div class="tab-btn" data-tab="aboutme">About Me</div>
+        <!-- Education Card -->
+        <div class="card education-card">
+          <h3><span class="icon">🎓</span> Education</h3>
+
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="content">
+                <span class="year">2023 - 2027</span>
+                <h4>B.E in Computer Engineering</h4>
+                <p>Savitribai Phule Pune University</p>
+                <p class="highlight">CGPA: 9.52</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="content">
+                <span class="year">HSC (12th Grade)</span>
+                <p class="highlight">Score: 80%</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="content">
+                <span class="year">SSC (10th Grade)</span>
+                <p class="highlight">Score: 96.40%</p>
+              </div>
+            </div>
+
+          </div>
         </div>
 
-        <!-- RIGHT SIDE -->
-        <div class="about-right">
+        <!-- Skills Card -->
+        <div class="card skills-card">
+          <h3><span class="icon">&lt;/&gt;</span> Technical Skills</h3>
 
-          <div class="tab-content active" id="education">
-            <h2>
-              ** Education **
-            </h2>
-
-            <div class="edu-card">
-              <h4><strong>B.E. – Computer Science Engineering</strong> </h4>
-              <span>2023 – 2027</span>
-              <p>Focused on advanced concepts of computer science including Data Structures, Algorithms,
-                Web Development. Gained hands-on experience in MERN
-                stack and building modern and efficient web solutions.</p>
-            </div>
-
-            <div class="edu-card">
-              <h4><strong>HSC – Higher Secondary Certificate</strong> </h4>
-              <span>2021 – 2023</span>
-              <p>Focused on Physics, Chemistry, and Mathematics. Developed strong logical reasoning,
-                analytical thinking, and problem-solving skills, preparing for higher studies in engineering and
-                technology.</p>
-            </div>
-
-            <div class="edu-card">
-              <h4><strong>SSC – Secondary School Certificate</strong> </h4>
-              <span>2020 – 2021</span>
-              <p>Completed basic schooling with distinction. Actively participated in computer
-                and tech-related events, building curiosity, discipline, and a strong foundation for learning.</p>
-            </div>
-
-          </div>
-
-          <!-- SKILLS -->
-          <div class="tab-content" id="skills">
-            <h2>** Skills **</h2>
-            <div class="skills-grid">
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-                <p>HTML</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-                <p>CSS</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  alt="JavaScript">
-                <p>JavaScript</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
-                <p>React</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
-                <p>Node.js</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                  alt="MongoDB">
-                <p>MongoDB</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                  alt="Express.js">
-                <p>Express.js</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-                  alt="C++">
-                <p>C++</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
-                  alt="Socket.io">
-                <p>Socket.io</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
-                <p>MySQL</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-                <p>Git</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-                <p>GitHub</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
-                  alt="Postman">
-                <p>Postman</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-                <p>Python</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
-                <p>Pandas</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
-                <p>NumPy</p>
-              </div>
-
-              <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
-                  alt="Matplotlib">
-                <p>Matplotlib</p>
-              </div>
-
+          <div class="skill-group">
+            <h4>Programming Languages</h4>
+            <div class="skills">
+              <span>C++</span>
+              <span>Python</span>
             </div>
           </div>
 
-          <!-- ABOUT ME -->
-          <div class="tab-content" id="aboutme">
-            <h2>** About me **</h2>
-            <p class="tab-desc">
-              I’m Anjali Navgire, a passionate Full-Stack Developer skilled in MERN stack. I love creating modern,
-              efficient, and user-friendly web applications.
+          <div class="skill-group">
+            <h4>Web Dev & DB</h4>
+            <div class="skills">
+              <span>MERN Stack</span>
+              <span>HTML/CSS</span>
+              <span>Tailwind</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
 
-              Curious and focused by nature, I enjoy learning new technologies, experimenting with innovative solutions,
-              and delivering projects with dedication and care.
+          <div class="skill-group">
+            <h4>AI & ML</h4>
+            <div class="skills">
+              <span>Data Preprocessing</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
+              <span>Machine Learning</span>
+            </div>
+          </div>
 
-              Outside of coding, I find inspiration in trekking, nature, and quiet reflection, which fuels my creativity
-              and problem-solving skills.
-
-              I aim to build meaningful, elegant, and efficient digital experiences while continuously growing as a
-              developer.
-            </p>
+          <div class="skill-group">
+            <h4>Tools & Tech</h4>
+            <div class="skills">
+              <span>ESP32</span>
+              <span>Git</span>
+              <span>Github</span>
+              <span>MongoDB Compass</span>
+              <span>Jupyter Lab</span>
+            </div>
           </div>
 
         </div>
+
       </div>
-    </div>
   </section>
 
   <!-- Services -->
@@ -331,8 +248,9 @@
         <!-- HackerRank C++ Card -->
         <div class="coding-card">
           <div class="coding-icon"><img class="coding-image"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
-          <h3>HackerRank - C++</h3>
+              src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="C++"></div>
+          <h3>HackerRank </h3>
+          <h3>C++</h3>
           <p>⭐⭐⭐⭐</p>
           <a class="link" href="https://www.hackerrank.com/profile/anjalinavgire311" target="_blank">
             Visit Profile
@@ -343,9 +261,10 @@
         <div class="coding-card">
           <div class="coding-icon">
             <img class="coding-image"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+              src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="Python">
           </div>
-          <h3>HackerRank - Python</h3>
+          <h3>HackerRank</h3>
+          <h3>Python</h3>
           <p>⭐⭐⭐</p>
           <a class="link" href="https://www.hackerrank.com/profile/anjalinavgire311" target="_blank">
             Visit Profile
@@ -355,9 +274,10 @@
         <!-- LeetCode C++ DSA Card -->
         <div class="coding-card">
           <div class="coding-icon"><img class="coding-image"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
-          <h3>LeetCode - C++ DSA</h3>
-          <p>DSA & Algorithm Practice</p>
+              src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="C++"></div>
+          <h3>LeetCode</h3>
+          <h3>C++ DSA</h3>
+          <p>(75+ Problems Solved)</p>
           <a class="link" href="https://leetcode.com/u/Anjali1475/" target="_blank">
             Visit Profile
           </a>
