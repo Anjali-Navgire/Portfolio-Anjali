@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anjali Navgire",
+  "url": "https://anjali-navgire-portfolio.onrender.com/",
+  "image": "https://anjali-navgire-portfolio.onrender.com/my_Photo.jpg",
+  "sameAs": [
+    "https://linkedin.com/in//anjali-navgire-a93b4932b",
+    "https://github.com/Anjali-Navgire",
+    "https://instagram.com/anjali_navgie3109"
+    
+  ],
+  "jobTitle": "Engineering Student / Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Vega Robotics Private Limited"
+  }
+}
+</script>
