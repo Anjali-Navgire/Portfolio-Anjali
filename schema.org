@@ -8,7 +8,7 @@
   "sameAs": [
     "https://linkedin.com/in//anjali-navgire-a93b4932b",
     "https://github.com/Anjali-Navgire",
-    "https://instagram.com/anjali_navgie3109"
+    "https://instagram.com/just_anjali_1414"
     
   ],
   "jobTitle": "Engineering Student / Developer",
